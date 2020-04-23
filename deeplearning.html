@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Oishee Bintey Hoque</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/scrolling-nav.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="./profile.html">Oishee Bintey Hoque</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="./profile.html#academic">Other Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="./profile.html#Research">Research &amp; Publications</a>
+          </li>
+            <li>
+                <a href="./CV/OisheeBinteyHoque.pdf" class="nav-link js-scroll-trigger">Download CV</a>
+            </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="bg-primary text-white">
+    <div class="container text-center">
+      <h1>Deep Learning Related Projects</h1>
+    <!--   <p class="lead">A landing page template freshly redesigned for Bootstrap 4</p> -->
+    </div>
+  </header>
+
+  <section id="services" class="bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">       
+          <!-- Face recognition -->
+          <ul>
+            <li><a href = "https://github.com/Oishee30/DeepLearning-Projects/tree/master/Face%20Recognition%20Using%20Facenet"><h2>Face Recogntion using Facenet (1:K matching problem).</h2></a>
+              <p class="lead">In Face Verification,  given two images and the system has to determine if they are of the same person. The simplest way to do this is to compare the two images pixel-by-pixel. If the distance between the raw images are less than a chosen threshold, it may be the same person!</p>
+            <div class="container text-center">
+              <img class="img-fluid mb-5 text-center" src="./img/face.png" alt="" width = "500">
+              <p>Fig: Example of distance outputs between three individuals' encodings</p>
+            </div>
+            <ul>
+            <li>Facenet Pre-Trained Model Architecture</li>
+            <li>Tools: Tensorflow, Keras, Matplotlib,Numpy, Pandas, OpenCv, Jupyter Notebook</li>
+            <li>An assignment of coursera</li>
+            </ul>
+            </li>
+          </ul>
+        <!-- Face recognition -->
+        <br>
+        <hr>
+        <!-- Sentiment -->
+          <ul>
+              <li><a href = "https://github.com/Oishee30/DeepLearning-Projects/tree/master/SentimentAnalysisKeras"> <h2>Sentiment Analysis From Facial Expression</h2></a>
+              <p class="lead">This model detects someone's emotion from their facial expression and classified as "happy" or "not happy."</p>
+            <div class="container text-center">
+            <img class="img-fluid mb-5 text-center" src="./img/face_images.png" alt="" width = "1000">
+            </div>
+            <ul>
+            <li>CNN Algorithm (From Scratch)</li>
+            <li>Acc: 97.83% </li>
+            <li>Tools: Tensorflow,Keras, Matplotlib, Jupyter Notebook</li>
+            <li>An assignment of coursera</li>
+            </ul>
+            </li>
+          </ul>
+        <!-- Sentiment -->
+        <br>
+        <hr>
+        <!-- Neural-Style-Tranfer -->
+          <ul>
+              <li><a href = "https://github.com/Oishee30/DeepLearning-Projects/tree/master/Neural_Style_Transfer"><h2>Neural Style Transfer</h2></a>
+              <p class="lead">Implemented the neural style transfer algorithm and generated novel artistic images using your algorithm.</p>
+            <div class="container text-center">
+            <img class="img-fluid mb-5 text-center" src="./img/neural.png" alt="" width = "1000">
+            </div>
+            <ul>
+            <li>Neural Style Transfer Algorithm</li>
+            <li>Tools: Tensorflow,Keras, Matplotlib,Scipy, PIL Jupyter Notebook</li>
+            <li>An assignment of coursera</li>
+            </ul>
+            </li>
+          </ul>
+        <!-- Neural-Style-Tranfer -->
+                <br>
+        <hr>
+        <!-- Hand Segmentation -->
+          <ul>
+              <li><a href = "https://github.com/Oishee30/DeepLearning-Projects/tree/master/HandGlovesSegmentation"><h2>Hand Segmentation(With gloves)</h2></a>
+              <p class="lead">This is a segmentation system. It can segment hand(with gloves) from pictures. The system is trained using resnet34. The <a href = "https://www.kaggle.com/oishee30/bdslsegmentfinal">dataset</a> for this problem is created by me.</p>
+            <div class="container text-center">
+            <img class="img-fluid mb-5 text-center" src="./img/hand.png" alt="" width = "1000">
+            </div>
+            <ul>
+            <li>IoU = 0.971 </li>
+            <li>Tools: Pytorch, Fastai, Resnet, Unet, Matplotlib, OpenCV PIL Jupyter Notebook</li>
+            </ul>
+            </li>
+          </ul>
+        <!--  Hand Segmentation -->
+              <br>
+        <hr>
+        <!-- IMDB User Review -->
+          <ul>
+              <li><a href = "https://github.com/Oishee30/DeepLearning-Projects/tree/master/IMDB"><h2>IMDB User Review Analysis</h2></a>
+              <p class="lead">The system was trained one IMDB dataset to identify if a user review is positive or negative. </p>
+            <div class="container text-center">
+            <img class="img-fluid mb-5 text-center" src="./img/review.png" alt="" width = "1000">
+            </div>
+            <ul>
+            <li>Accuracy = 94.3% (higher than the state of the art accuracy) </li>
+            <li>Tools: Pytorch, Fastai, LSTM, Jupyter Notebook</li>
+            </ul>
+            </li>
+          </ul>
+        <!-- IMDB User Review -->
+             <br>
+        <hr>
+        <!--37 Pet Breed Classifier -->
+          <ul>
+              <li><a href = "https://github.com/Oishee30/DeepLearning-Projects/tree/master/37-PetBreedClassifier"><h2>37 Pet Breed Classifier</h2></a>
+              <p class="lead">This classifier identifies 37 types of pet breed. For this classification oxford-iiit-pet dataset has been used.</p>
+            <div class="container text-center">
+            <img class="img-fluid mb-5 text-center" src="./img/pet.png" alt="" width = "1000">
+            </div>
+            <ul>
+            <li>Error rate only 0.04% </li>
+            <li>Tools: Pytorch, Fastai, Resnet34,Resnet50, Matplotlib, OpenCV PIL Jupyter Notebook</li>
+            </ul>
+            </li>
+          </ul>
+        <!--  37 Pet Breed Classifier -->
+               <!--  Hand Segmentation -->
+              <br>
+        <hr>
+        <!-- Human Segmentation and Bacground Remove -->
+          <ul>
+              <li><a href = "https://github.com/Oishee30/DeepLearning-Projects/tree/master/BackgroundRemove"><h2>Human Segmentation and Bacground Remove (Ongoing)</h2></a>
+              <p class="lead">The system can segment any human from pictures with no background constraint. <a href = "http://cocodataset.org/#home">COCO</a> dataset has been used to train the classifier. This coco data dataset has 80 classes with over 3million images. Using COCO api I have modified the dataset only for human segmentation.</p>
+            <div class="container text-center">
+            <img class="img-fluid mb-5 text-center" src="./img/human.png" alt="" >
+            <p>So Far Result On Unseen Data</p>
+            </div>
+            <ul>
+            <li>Dice = 0.654(still working on it) </li>
+            <li>Tools: Pytorch, Fastai, unet, resnet34 Jupyter Notebook</li>
+            </ul>
+            </li>
+          </ul>
+        <!-- IMDB User Review -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!--
+  <section id="services" class="bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2>Sentiment Analysis From Facial Expression</h2>
+          <p class="lead">This model to detect if someone's emotion from their face and classified as "happy" or "not happy."</p>
+            <div class="container text-center">
+                            <img class="img-fluid mb-5 text-center" src="./img/face_images.png" alt="" width = "500">
+            </div>
+          <ul>
+            <li>CNN Algorithm (From Scratch)</li>
+            <li>Acc: 97.83% </li>
+            <li>Tools: Tensorflow Keras, Matplotlib, Jupyter Notebook</li>
+            <li>An assignment of coursera</li>
+            <li><a href = "#">Link: </a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2>Contact us</h2>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero odio fugiat voluptatem dolor, provident officiis, id iusto! Obcaecati incidunt, qui nihil beatae magnam et repudiandae ipsa exercitationem, in, quo totam.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+-->
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright © Oishee Bintey Hoque 2019</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom JavaScript for this theme -->
+  <script src="js/scrolling-nav.js"></script>
+
+
+
+
+</body></html>
